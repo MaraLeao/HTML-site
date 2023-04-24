@@ -1,95 +1,104 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
-</head>
-<body style="margin:0">
-    <header style="background-color: #304d63; text-align: center; height: 200px; color: white; padding: 10px;">
-        <h1 style="font-size: 50px">HTML <sup>Linguagem de Marcação de Hipertexto</sup></h1>
-        <h2  style="color: #8fb9aa;">Tutoriais para iniciante</h2>
-    </header>
 
-    <nav style="background-color: #304d63; display:flex; margin-top:10px; justify-content:space-between; padding:10px">
-        
-        <a href="index.html" style="color:#FFF; text-decoration: none;">Início</a>
-        <a href="index.html#html" style="color:#FFF; text-decoration: none;">HTML</a>
-        <a href="index.html#tabela"style="color:#FFF; text-decoration: none;" >Tabela e Listas</a>
-        <a href="index.html#css" style="color:#FFF; text-decoration: none;">Sobre CSS, HTML e JS</a>
-        <a href="index.html#rodape" style="color:#FFF; text-decoration: none;" >Links</a>
-    </nav>
-    <form action="obrigado.html" method="get" style="margin: 30px; font-size: large;">
-        <p>
-        <label style="margin-top: 10px;">Nome:</label>
-        <input type="text" name="nome" style="font-size:large;" required> <br>
-        </p>
-        <p>
-        <label style="margin-top: 10px;">E-mail:</label>
-        <input type="email" name="email" style="font-size:large;" required> <br>
-        </p>
-        <p>
-        <label style="margin-top: 10px;">Assunto:</label>
-        <select name="assunto" style="font-size:large;">
-            <option value="Selecione" selected>Selecione uma das alternativas</option>
-            <option value="sugestao">Sugestão</option>
-            <option value="critica">Crítica</option>
-            <option value="elogio">Elogio</option>
-        </select>
-        </p>
-        <p>
-        <label>Mensagem:</label>
-        <textarea name="mensagem" style="font-size:large;" required></textarea><br>
-        </p>
-        <p>
-        <input type="checkbox" name="termo" value="concordo com os termos" style="font-size:large;" required>
-        <label>Concordo com os Termos de Privacidade do Site</label>
-        </p>
-        <input type="submit" value="Enviar mensagem" style="font-size: large;">
-    </form>
-    <footer style="padding: auto; margin-top: 10px;" ><a id="rodape"></a>
-        <section style="display: grid; grid-template-columns: 25% 25% 25% 25%;">
-            <section style="background-color: #F2D096; padding: 10px">
-                <h4>Sobre</h4>
-                <ul>
-                    <li>Hospedagem</li>
-                    <li>Loja Oficial</li>
-                    <li>Política de privacidade</li>
-                    <li>Fale conosco</li>
-                </ul>
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato</title>
+        <link rel="icon" type="image/png" href="https://cryptologos.cc/logos/html-coin-html-logo.png" >
+
+    </head>
+
+    <body style="margin:0">
+
+        <header style="background-color: #304d63; text-align: center; height: 200px; color: white; padding: 10px;">
+            <h1 style="font-size: 50px">HTML <sup>Linguagem de Marcação de Hipertexto</sup></h1>
+            <h2  style="color: #8fb9aa;">Tutoriais para iniciante</h2>
+        </header>
+
+        <nav style="background-color: #304d63; display:flex; margin-top:10px; justify-content:space-between; padding:10px">
+            
+            <a href="index.html" style="color:#FFF; text-decoration: none;">Início</a>
+            <a href="index.html#html" style="color:#FFF; text-decoration: none;">HTML</a>
+            <a href="index.html#tabela"style="color:#FFF; text-decoration: none;" >Tabela e Listas</a>
+            <a href="index.html#css" style="color:#FFF; text-decoration: none;">Sobre CSS, HTML e JS</a>
+            <a href="index.html#rodape" style="color:#FFF; text-decoration: none;" >Links</a>
+        </nav>
+
+        <form action="obrigado.html" method="get" style="margin: 30px; font-size: large;">
+            <p>
+            <label style="margin-top: 10px;">Nome:</label>
+            <input type="text" name="nome" style="font-size:large;" required> <br>
+            </p>
+            <p>
+            <label style="margin-top: 10px;">E-mail:</label>
+            <input type="email" name="email" style="font-size:large;" required> <br>
+            </p>
+            <p>
+            <label style="margin-top: 10px;">Assunto:</label>
+            <select name="assunto" style="font-size:large;">
+                <option value="Selecione" selected>Selecione uma das alternativas</option>
+                <option value="sugestao">Sugestão</option>
+                <option value="critica">Crítica</option>
+                <option value="elogio">Elogio</option>
+            </select>
+            </p>
+            <p>
+            <label>Mensagem:</label>
+            <textarea name="mensagem" style="font-size:large;" required></textarea><br>
+            </p>
+            <p>
+            <input type="checkbox" name="termo" value="concordo com os termos" style="font-size:large;" required>
+            <label>Concordo com os Termos de Privacidade do Site</label>
+            </p>
+            <input type="submit" value="Enviar mensagem" style="font-size: large;">
+        </form>
+
+        <footer style="padding: auto; margin-top: 10px;" ><a id="rodape"></a>
+            <section style="display: grid; grid-template-columns: 25% 25% 25% 25%;">
+                <section style="background-color: #F2D096; padding: 10px">
+                    <h4>Sobre</h4>
+                    <ul>
+                        <li>Hospedagem</li>
+                        <li>Loja Oficial</li>
+                        <li>Política de privacidade</li>
+                        <li>Fale conosco</li>
+                    </ul>
+                </section>
+                <section style="padding: 10px;">
+                    <h4>Opções</h4>
+                    <ul>    
+                        <li>Teste de velocidade</li>
+                        <li>Conversor de texto</li>
+                        <li>Contador de Caracteres</li>
+                        <li>Botão Whatsapp</li>
+                    </ul>
+                </section>
+                <section style="background-color: #F2D096; padding: 10px;">
+                    <h4>Categorias</h4>
+                    <ul>
+                        <li>Design</li>
+                        <li>Marketing</li>
+                        <li>Programação</li>
+                        <li>Tutoriais</li>
+                    </ul>
+                </section>
+                <section style="padding: 10px;">
+                    <h4>Contatos</h4>
+                    <ul>
+                        <li>E-BOOKS</li>
+                        <li>20 Leis de UX</li>
+                        <li>Introdução ao Boostrap</li>
+                        <li>Fale conosco</li>
+                    </ul>
+                </section>
             </section>
-            <section style="padding: 10px;">
-                <h4>Opções</h4>
-                <ul>    
-                    <li>Teste de velocidade</li>
-                    <li>Conversor de texto</li>
-                    <li>Contador de Caracteres</li>
-                    <li>Botão Whatsapp</li>
-                </ul>
+            
+            <section align="center" style="margin-top:30px; margin-bottom: 30px;">
+                <b>Maria Clara Gouveia &copy Direitos Reservados</b>
             </section>
-            <section style="background-color: #F2D096; padding: 10px;">
-                <h4>Categorias</h4>
-                <ul>
-                    <li>Design</li>
-                    <li>Marketing</li>
-                    <li>Programação</li>
-                    <li>Tutoriais</li>
-                </ul>
-            </section>
-            <section style="padding: 10px;">
-                <h4>Contatos</h4>
-                <ul>
-                    <li>E-BOOKS</li>
-                    <li>20 Leis de UX</li>
-                    <li>Introdução ao Boostrap</li>
-                    <li>Fale conosco</li>
-                </ul>
-            </section>
-        </section>
-        <section align="center" style="margin-top:30px; margin-bottom: 30px;">
-            <b>Maria Clara Gouveia &copy Direitos Reservados</b>
-        </section>
-    </footer>
-</body>
+        </footer>
+    </body>
 </html>
