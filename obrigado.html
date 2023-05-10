@@ -8,36 +8,104 @@
         <title>Obrigado</title>
         <link rel="icon" type="image/png" href="https://cryptologos.cc/logos/html-coin-html-logo.png" >
 
+        <style>
+
+            body{
+                margin:0
+            }
+            header{
+                background-color: #304d63; 
+                text-align: center; 
+                height: 200px; 
+                color: white; 
+                padding: 10px;
+            }
+
+            nav{
+                background-color: #304d63; 
+                display:flex; 
+                margin-top:10px; 
+                justify-content:space-between; 
+                padding:10px
+            }
+
+            a{
+                color:#FFF; 
+                text-decoration: none;
+            }
+
+            h1{
+                color:#FFF; 
+                text-decoration: none;
+            }
+            
+            div{
+                margin: 100px
+            }
+            
+            .msgobg{
+                color:#304d63
+            }
+
+            img{
+                margin: 10px;
+            }
+
+            footer{
+               padding: auto; 
+               margin-top: 10px;
+            }
+
+            .sec{
+                display: grid; 
+                grid-template-columns: 25% 25% 25% 25%;
+            }
+
+            .sec1{
+                background-color: #F2D096; 
+                padding: 10px;
+            }
+
+            .sec2{
+                padding: 10px;
+            }
+
+            .copyright{
+                margin-top:30px; 
+                margin-bottom: 30px;
+            }
+
+        </style>
     </head>
 
     <body>
 
-        <header style="background-color: #304d63; text-align: center; height: 200px; color: white; padding: 10px;">
+        <header>
             <h1 style="font-size: 50px">HTML <sup>Linguagem de Marcação de Hipertexto</sup></h1>
             <h2  style="color: #8fb9aa;">Tutoriais para iniciante</h2>
         </header>
 
-        <nav style="background-color: #304d63; display:flex; margin-top:10px; justify-content:space-between; padding:10px">
+        <nav>
             
-            <a href="index.html" style="color:#FFF; text-decoration: none;">Início</a>
-            <a href="index.html#html" style="color:#FFF; text-decoration: none;">HTML</a>
-            <a href="index.html#tabela"style="color:#FFF; text-decoration: none;" >Tabela e Listas</a>
-            <a href="index.html#css" style="color:#FFF; text-decoration: none;">Sobre CSS, HTML e JS</a>
-            <a href="index.html#rodape"style="color:#FFF; text-decoration: none;" >Links</a>
-            <a href="contato.html" style="color:#FFF; text-decoration: none;">Contato</a>
+            <a href="index.html">Início</a>
+            <a href="index.html#html">HTML</a>
+            <a href="index.html#tabela">Tabela e Listas</a>
+            <a href="index.html#css">Sobre CSS, HTML e JS</a>
+            <a href="index.html#rodape">Links</a>
+            <a href="contato.html">Contato</a>
         </nav>
 
-        <h1 align="center" style="margin-top:30px">
+        <h1 align="center" class="msgobg">
             Obrigado por entrar em contato, retornaremos em breve! &#x1F60A;
         </h1>
         
-        <div align="center" style="margin: 100px">
-            <img src="https://cryptologos.cc/logos/html-coin-html-logo.png" width="200px" title="Logo" style="margin: 10px;">
+        <div align="center">
+            <img src="https://cryptologos.cc/logos/html-coin-html-logo.png" width="200px" title="Logo" >
         </div>
 
-        <footer style="padding: auto; margin-top: 10px;" ><a id="rodape"></a>
-            <section style="display: grid; grid-template-columns: 25% 25% 25% 25%;">
-                <section style="background-color: #F2D096; padding: 10px">
+        <footer id="rodape">
+            <section class="sec">
+                <section class="sec1">
                     <h4>Sobre</h4>
                     <ul>
                         <li>Hospedagem</li>
@@ -46,7 +114,7 @@
                         <li>Fale conosco</li>
                     </ul>
                 </section>
-                <section style="padding: 10px;">
+                <section class="sec2">
                     <h4>Opções</h4>
                     <ul>    
                         <li>Teste de velocidade</li>
@@ -55,7 +123,7 @@
                         <li>Botão Whatsapp</li>
                     </ul>
                 </section>
-                <section style="background-color: #F2D096; padding: 10px;">
+                <section class="sec1">
                     <h4>Categorias</h4>
                     <ul>
                         <li>Design</li>
@@ -64,7 +132,7 @@
                         <li>Tutoriais</li>
                     </ul>
                 </section>
-                <section style="padding: 10px;">
+                <section class="sec2">
                     <h4>Contatos</h4>
                     <ul>
                         <li>E-BOOKS</li>
@@ -74,7 +142,8 @@
                     </ul>
                 </section>
             </section>
-            <section align="center" style="margin-top:30px; margin-bottom: 30px;">
+
+            <section align="center" class="copyright" >
                 <b>Maria Clara Gouveia &copy Direitos Reservados</b>
             </section>
         </footer>

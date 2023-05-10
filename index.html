@@ -9,10 +9,88 @@
         <link rel="icon" type="image/png" href="https://cryptologos.cc/logos/html-coin-html-logo.png" >
 
        <style>
+             body{
+                margin:0
+            }
+
+            header{
+                background-color: #304d63;
+                text-align: center;
+                height: 200px;
+                color: white;
+                padding:10px;
+            }
+
+            .imgtt{
+                border: 0;
+                margin-left:10px; 
+                margin-right: 10px;
+            }
+
+            h1{
+                font-size: 50px;
+            }
+
+            .h2tt{
+                color: #8fb9aa
+            }
+
+            nav{
+                background-color: #304d63;
+                display:flex;
+                margin-top: 10px;
+                justify-content: space-between;
+                padding: 10px;
+                
+            }
+
+            a{
+                color:#FFF; 
+                text-decoration: none;
+            }
+
+            .sec1{
+                margin-bottom: 30px;
+                margin-top:30px; 
+                color:#304d63
+            }
+
+            div{
+                padding-left: 50px
+            }
+
+            mark{
+                margin-bottom: 30px;
+                margin-top:30px;
+                color:#304d63
+            }
+            .h3p{
+                color:#304d63
+            }
+
+            summary{
+                font-size: 18px;
+                color:#304d63
+            }
+
+            .d1{
+                color:#ED8975
+            }
+            .d2{
+                color:#8fb9aa
+            }
+
+            .sec2{
+                display: flex;
+                border-bottom: 10px; 
+                background-color: #ED8975;
+                color: #FFF;
+            }
             table, th,td{
                 border: 1px solid #FFF;
                 border-collapse: collapse;
             }
+
             th,td{
                 padding:3px;
                 text-align: center;
@@ -20,31 +98,99 @@
             table{
                 margin-bottom: 10px;
                 margin-top: 10px;
+                border: 2px solid #FFF;
             }
+
+            .sec2a{
+                display: flex; 
+                width: 50%;
+            }
+
+            .sec2b{
+                display: flex; 
+                width: 50%; 
+                margin-left: 5px;
+            }
+            
+            .sec3{
+                display: flex; 
+                justify-content: flex-start; 
+                align-items:flex-start; 
+                margin-top:10px
+            }
+
+            .sec3a{
+                background-color: #8fb9aa; 
+                width: 33.33%; 
+                height: 200px; 
+                padding: 20px;
+            }
+
+            .sec3b{
+                background-color:#B2E7E8; 
+                width: 33.33%; 
+                height: 200px; 
+                padding: 20px;
+            }
+            
+            .sec3c{
+                background-color:#8fb9aa; 
+                width: 33.33%; 
+                height: 200px; 
+                padding: 20px;
+            }
+            
+            img{
+                padding:5px;
+            }
+
+            footer{
+                padding: auto; 
+                margin-top: 10px;
+            }
+            .sec4{
+                display: grid; 
+                grid-template-columns: 25% 25% 25% 25%;
+            }
+
+            .sec4a{
+                background-color: #F2D096; 
+                padding: 10px;
+            }
+
+            .sec4b{
+                padding: 10px;
+            }
+
+            .copyright{
+                margin-top:30px; 
+                margin-bottom: 30px;
+            }
+
         </style>
 
     </head>
 
-    <body style="margin:0;">
+    <body>
 
-        <header style="background-color: #304d63; text-align: center; height: 200px; color: white; padding: 10px;">
+        <header>
             <h1 style="font-size: 50px">HTML <sup>Linguagem de Marcação de Hipertexto</sup></h1>
             <h2  style="color: #8fb9aa;">Tutoriais para iniciante</h2>
         </header>
 
-        <nav style="background-color: #304d63; display:flex; margin-top:10px; justify-content:space-between; padding:10px">
+        <nav >
             
-            <a href="index.html" style="color:#FFF; text-decoration: none;">Início</a>
-            <a href="index.html#html" style="color:#FFF; text-decoration: none;">HTML</a>
-            <a href="index.html#tabela"style="color:#FFF; text-decoration: none;" >Tabela e Listas</a>
-            <a href="index.html#css" style="color:#FFF; text-decoration: none;">Sobre CSS, HTML e JS</a>
-            <a href="index.html#rodape"style="color:#FFF; text-decoration: none;" >Links</a>
-            <a href="contato.html" style="color:#FFF; text-decoration: none;">Contato</a>
+            <a href="index.html">Início</a>
+            <a href="index.html#html">HTML</a>
+            <a href="index.html#tabela" >Tabela e Listas</a>
+            <a href="index.html#css">Sobre CSS, HTML e JS</a>
+            <a href="index.html#rodape">Links</a>
+            <a href="contato.html">Contato</a>
         </nav>
 
-        <section style = "margin-bottom: 30px; margin-top:30px; color:#304d63" ><a id="html"></a>
+        <section class="sec1" id="html">
             <p>
-                <img src="https://cryptologos.cc/logos/html-coin-html-logo.png" width="100" style="border: 0; margin-left:10px; margin-right: 10px;" align="Left" title="logo HTML" >
+                <img src="https://cryptologos.cc/logos/html-coin-html-logo.png" width="100" class="imgtt" align="Left" title="logo HTML" >
                 <b><ins>HTML</ins></b>
                 <i>(Linguagem de Marcação de HiperTexto)</i> é o bloco de construção mais básico da web.
                 <mark style="background: #F2D096!important;">Define o significado e a estrutura do conteúdo da web.</mark> Outras tecnologias além do HTML geralmente 
@@ -52,7 +198,7 @@
                 de uma página web.
             </p>
 
-            <div style="padding-left: 50px;">
+            <div>
                 <p>
                     O HTML não é considerado uma linguagem de programação, já que ele não pode criar funcionalidades dinâmicas. 
                     Ao invés disso, com o HTML, os usuários podem criar e estruturar seções, parágrafos e links usando 
@@ -60,16 +206,16 @@
                 </p>
 
                 <p>
-                    <h3 style="color:#304d63">O HTML é usado geralmente para:</h3>
+                    <h3 class="h3p">O HTML é usado geralmente para:</h3>
                     <p>
                     <details>
-                        <summary style="font-size: 18px">Desenvolvimento web</summary>
+                        <summary>Desenvolvimento web</summary>
                         Os desenvolvedores usam códigos HTML para projetar como um navegador vai exibir os elementos das páginas,
                          como textos, hiperlinks e arquivos de mídia.
                     </details>  
                     </p>
                     <p>
-                    <details style="color:#ED8975" >
+                    <details class="d1" >
                         <summary style="font-size: 18px;color:#304d63">Navegação na internet</summary>
                         Os usuários podem navegar facilmente e inserir links entre páginas e sites relacionados, 
                         já que o HTML é amplamente usado para incorporar hiperlinks.
@@ -77,7 +223,7 @@
                     </details>
                     </p>
                     <p>
-                        <details style="color:#8fb9aa">
+                        <details class="d2">
                             <summary style=" font-size: 18px; color:#304d63">Documentação</summary>
                             O HTML torna possível a organização e a formatação de documentos, de maneira similar ao Microsoft Word.
                         </details>
@@ -86,10 +232,10 @@
             </div>
         </section>
 
-        <section style = "display: flex; border-bottom: 10px; background-color: #ED8975; color: #FFF;;"><a id="tabela"></a>
-            <section style = "display: flex; width: 50%;"> 
+        <section class="sec2" id="tabela">
+            <section class="sec2a"> 
                 <p>
-                    <table style=" border: 2px solid #FFF; " align = "center" >
+                    <table align="center">
                         <thead>
                             <tr>
                                 <th colspan="2">Tabela de tags HTML</th>
@@ -135,7 +281,7 @@
                 </p>
             </section>
             
-            <section style="display: flex; width: 50%; margin-left: 5px;">
+            <section class="sec2b">
                 <p>
                     <ol type="1">
                         <h3>Protocolos da web:</h3>
@@ -149,10 +295,10 @@
             </section>
         </section>
 
-        <section id="css" style="display: flex; justify-content: flex-start; align-items:flex-start; margin-top:10px" >
+        <section class="sec3" id="css">
            
-            <section style = "background-color: #8fb9aa; width: 33.33%; height: 200px; padding: 20px;" >
-                <img src="https://img.freepik.com/icones-gratis/css_318-452628.jpg" width="50" align="Left" style="padding:5px;" title="css logo">
+            <section class="sec3a" >
+                <img src="https://img.freepik.com/icones-gratis/css_318-452628.jpg" width="50" align="Left" title="css logo">
                 <h2 >O que é CSS?</h2>
                 <p>Cascading Style Sheets (CSS) é usado para formatar o layout de 
                 uma página da web. Com CSS, você pode controlar a cor, a fonte, o tamanho do texto,
@@ -161,8 +307,8 @@
                 para dispositivos e tamanhos de tela diferentes e muito mais!
             </section>
 
-            <section style="background-color:#B2E7E8; width: 33.33%; height: 200px; padding: 20px;" >
-                <img src="https://cdn-icons-png.flaticon.com/512/1183/1183722.png" width="50" align="Left" style="padding:5px;" title="html logo">
+            <section class="sec3b">
+                <img src="https://cdn-icons-png.flaticon.com/512/1183/1183722.png" width="50" align="Left" title="html logo">
                 <h2>O que é HTML?</h2>
                 <p>
                   HTML é uma linguagem de marcação utilizada na construção de páginas na Web.
@@ -173,8 +319,8 @@
                 </p>
             </section>
 
-            <section style="background-color:#8fb9aa; width: 33.33%; height: 200px; padding: 20px;" >
-                <img src="https://static.thenounproject.com/png/4826355-200.png" width="50" align="Left" style="padding: 5px" title="javascript logo">
+            <section class="sec3c">
+                <img src="https://static.thenounproject.com/png/4826355-200.png" width="50" align="Left" title="javascript logo">
                 <h2>O que é JavaScript?</h2>
                 <p>
                 JavaScript é uma linguagem de programação interpretada estruturada, 
@@ -185,9 +331,9 @@
             </section>
         </section>
 
-        <footer style="padding: auto; margin-top: 10px;" ><a id="rodape"></a>
-            <section style="display: grid; grid-template-columns: 25% 25% 25% 25%;">
-                <section style="background-color: #F2D096; padding: 10px">
+        <footer id="rodape">
+            <section class="sec4">
+                <section class="sec4a">
                     <h4>Sobre</h4>
                     <ul>
                         <li>Hospedagem</li>
@@ -196,7 +342,7 @@
                         <li>Fale conosco</li>
                     </ul>
                 </section>
-                <section style="padding: 10px;">
+                <section class="sec4b">
                     <h4>Opções</h4>
                     <ul>    
                         <li>Teste de velocidade</li>
@@ -205,7 +351,7 @@
                         <li>Botão Whatsapp</li>
                     </ul>
                 </section>
-                <section style="background-color: #F2D096; padding: 10px;">
+                <section class="sec4a">
                     <h4>Categorias</h4>
                     <ul>
                         <li>Design</li>
@@ -214,7 +360,7 @@
                         <li>Tutoriais</li>
                     </ul>
                 </section>
-                <section style="padding: 10px;">
+                <section class="sec4b">
                     <h4>Contatos</h4>
                     <ul>
                         <li>E-BOOKS</li>
@@ -225,7 +371,7 @@
                 </section>
             </section>
 
-            <section align="center" style="margin-top:30px; margin-bottom: 30px;">
+            <section align="center" class="copyright">
                 <b>Maria Clara Gouveia &copy Direitos Reservados</b>
             </section>
         </footer>
