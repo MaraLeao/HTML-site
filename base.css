@@ -1,0 +1,61 @@
+
+/* Formatação base da pagina, cabecalho e rodape */
+
+/* Estilo do cabeçalho */
+body{
+    margin:0;
+    font-family: Quicksand
+}
+
+header{
+    font-family:Graduate;
+    background-color: #304d63; 
+    text-align: center; 
+    height: 200px; 
+    color: white; 
+    padding: 10px;
+}
+
+nav{
+    background-color: #304d63; 
+    display:flex; 
+    margin-top:10px; 
+    justify-content:space-between; 
+    padding:10px
+}
+
+a{
+    color:#FFF; 
+    text-decoration: none;
+}
+
+h1{
+    color:#FFF; 
+    text-decoration: none;
+}
+
+/* Estilo do rodape*/
+
+footer{
+    padding: auto; 
+    margin-top: 10px;
+}
+ 
+.gridRodape{
+    display: grid; 
+    grid-template-columns: 25% 25% 25% 25%;
+}
+ 
+.r1{
+    background-color: #F2D096; 
+    padding: 10px;
+}
+ 
+.r2{
+    padding: 10px;
+}
+ 
+.copyright{
+    margin-top:30px; 
+    margin-bottom: 30px; 
+}
